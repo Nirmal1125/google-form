@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Google Form for Membership Registration</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1 class="title">Membership Registration</h1>
+        <hr>
+    
+        <form id="registrationForm" class="form" >
+            <label for="firstname">First name</label>
+            <input type="text" id="firstname" name="firstname" placeholder="Enter your firstname" required><br><br>
+
+            <label for="middlename">Middle name</label>
+            <input type="text" id="middlename" name="middlename" placeholder="Enter your middlename"><br><br>
+
+            <label for="lastname">Last name</label>
+            <input type="text" id="lastname" name="lastname" placeholder="Enter your lastname" required><br><br>
+            
+            <label for="gender" id="gender">Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label><br><br>
+
+            <label for="dob">Date of Birth*</label>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+            <label for="blood-group">Blood Group</label>
+            <input type="text" id="blood-group" name="blood-group" placeholder="Enter your blood group"><br><br>
+
+            <label for="nationality">Nationality</label>
+            <input type="text" id="nationality" name="nationality" placeholder="Enter your nationality"><br><br>
+
+            <label for="email">Email ID</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email"  required><br><br>
+             
+
+
+            <label for="current-status" id="current-status">What is your current status:</label><br>
+            <input type="radio" id="study" name="status" value="Study" required>
+            <label for="study">Study</label><br>
+            <input type="radio" id="work" name="status" value="Work" required>
+            <label for="work">Work</label><br>
+            <input type="radio" id="both" name="status" value="Both" required>
+            <label for="both">Both</label><br>
+            <input type="radio" id="other" name="status" value="Other" required>
+            <label for="other">Other</label><br><br>
+
+            <hr>
+            <label for="terms">Terms and Conditions</label><br>
+            <input type="checkbox" id="terms" name="terms" required>
+            <label for="terms">I agree with the organization's rules and policies</label><br><br>
+
+            <input type="checkbox" id="privacy" name="privacy" required>
+            <label for="privacy">Allow us to use your personal data in accordance with our privacy policy</label><br><br>
+
+            <button type="submit">Register</button>
+        </form>
+
+        <script src="script.js"></script>
+    </body>
+</html>

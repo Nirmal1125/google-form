@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://th.bing.com/th/id/R.d820b497cc152184d0f6620a9ec15714?rik=NdJJFHHnyGxSVg&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2015%2f12%2f40105-gradient-simple_background-colorful-abstract.jpg&ehk=HXCvpXoX%2fSQHIUxEUk8uCjhkgJNzA46%2bX6VinvVPLN8%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    color: #949393;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1.title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #0044cc;
+    margin-top: 20px;
+    
+}
+
+p.required {
+    font-size: 0.9rem;
+    color: red;
+    text-align: center;
+}
+
+
+.form {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-size: 1rem;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"]
+ {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+hr {
+    border: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #0044cc;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #003399;
+}
+
+
+@media (max-width: 768px) {
+    .form {
+        width: 90%;
+    }
+}
+
+
+
+
